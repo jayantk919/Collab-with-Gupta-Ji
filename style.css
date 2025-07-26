@@ -1,29 +1,21 @@
 * {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html, body {
-=======
   box-sizing: border-box;
 }
 
 html, body {
   font-size: 16px;
   scroll-behavior: smooth;
->>>>>>> d5b6180f7d1ce48fd271a86833d692ea51aa1abd
   height: 100%;
   width: 100%;
 }
 
 body {
-<<<<<<< HEAD
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/* ✅ Your Styles: Section 2 and Section 3 */
 .section2 {
   width: 100%;
   height: 100%;
@@ -32,33 +24,18 @@ body {
 .section2 .section2top {
   width: 100%;
   padding: 50px 85px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   font-size: 3em;
   gap: 6rem;
 }
 
 .section2 .section2top div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section2 .section2top div a {
@@ -69,23 +46,16 @@ body {
 
 .section2 .section2bottom {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 10px 85px;
 }
 
 .section2 .section2bottom .card {
   width: 23.5%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .section2 .section2bottom .card img {
@@ -125,28 +95,20 @@ body {
   background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Slim-Multi-Canvas-Game-Pass-APR-2025:VP5-1596x600);
   background-size: contain;
   background-repeat: no-repeat;
-  -o-object-position: center;
-     object-position: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  object-position: center;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-/*# sourceMappingURL=style.css.map */
-=======
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
+
+
+/* ✅ Friend's Styles: #main layout, nav, sec-1, sec-4 */
 
 #main {
   width: 100%;
   height: 100%;
 }
+
 #main nav {
   box-shadow: 0px 1px 3px grey;
   font-size: 0.85em;
@@ -156,24 +118,29 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 #main nav .left {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
 #main nav .left img {
   height: 1.5rem;
 }
+
 #main nav .right {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
+
 #main nav .right div {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
+
 #main nav .right div .signin {
   width: 35px;
   height: 35px;
@@ -182,6 +149,7 @@ body {
   background-position: top;
   background-size: cover;
 }
+
 #main .sec-1 {
   padding: 50px 85px;
   width: 100%;
@@ -190,6 +158,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+
 #main .sec-1 div {
   display: flex;
   flex-direction: column;
@@ -199,10 +168,12 @@ body {
   width: 43%;
   background-color: #fff;
 }
+
 #main .sec-1 div h2 {
   font-size: 2.1em;
   font-weight: 500;
 }
+
 #main .sec-1 div button {
   border: none;
   background-color: #005CA5;
@@ -212,6 +183,7 @@ body {
   padding: 10px 18px;
   border-radius: 2px;
 }
+
 #main .sec-4 {
   width: 100%;
   height: 100%;
@@ -220,14 +192,17 @@ body {
   flex-direction: column;
   gap: 1.5rem;
 }
+
 #main .sec-4 h2 {
   font-size: 2.1em;
   font-weight: 500;
 }
+
 #main .sec-4 .cards {
   display: flex;
   justify-content: space-between;
 }
+
 #main .sec-4 .cards .card {
   width: 23.5%;
   display: flex;
@@ -237,18 +212,22 @@ body {
   box-shadow: 0px 0px 4px rgb(156, 156, 156);
   gap: 1rem;
 }
+
 #main .sec-4 .cards .card .content {
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
 #main .sec-4 .cards .card .content h2 {
   font-size: 1.8rem;
 }
+
 #main .sec-4 .cards .card img {
   width: 100%;
 }
+
 #main .sec-4 .cards .card button {
   border: none;
   background-color: #005CA5;
@@ -258,5 +237,6 @@ body {
   padding: 10px 18px;
   border-radius: 2px;
   margin: 20px;
-}/*# sourceMappingURL=style.css.map */
->>>>>>> d5b6180f7d1ce48fd271a86833d692ea51aa1abd
+}
+
+/*# sourceMappingURL=style.css.map */
