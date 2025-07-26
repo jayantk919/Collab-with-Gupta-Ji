@@ -1,16 +1,26 @@
 * {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 html, body {
+=======
+  box-sizing: border-box;
+}
+
+html, body {
+  font-size: 16px;
+  scroll-behavior: smooth;
+>>>>>>> d5b6180f7d1ce48fd271a86833d692ea51aa1abd
   height: 100%;
   width: 100%;
 }
 
 body {
+<<<<<<< HEAD
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -129,3 +139,124 @@ body {
           justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
+=======
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+#main nav {
+  box-shadow: 0px 1px 3px grey;
+  font-size: 0.85em;
+  font-weight: 400;
+  align-items: center;
+  padding: 10px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+#main nav .left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#main nav .left img {
+  height: 1.5rem;
+}
+#main nav .right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+#main nav .right div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+#main nav .right div .signin {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1vZGVsfGVufDB8fDB8fHww);
+  background-position: top;
+  background-size: cover;
+}
+#main .sec-1 {
+  padding: 50px 85px;
+  width: 100%;
+  height: 70%;
+  background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP5-1920x600);
+  background-position: center;
+  background-size: cover;
+}
+#main .sec-1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+  padding: 45px 4%;
+  width: 43%;
+  background-color: #fff;
+}
+#main .sec-1 div h2 {
+  font-size: 2.1em;
+  font-weight: 500;
+}
+#main .sec-1 div button {
+  border: none;
+  background-color: #005CA5;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 2px;
+}
+#main .sec-4 {
+  width: 100%;
+  height: 100%;
+  padding: 50px 85px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+#main .sec-4 h2 {
+  font-size: 2.1em;
+  font-weight: 500;
+}
+#main .sec-4 .cards {
+  display: flex;
+  justify-content: space-between;
+}
+#main .sec-4 .cards .card {
+  width: 23.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-shadow: 0px 0px 4px rgb(156, 156, 156);
+  gap: 1rem;
+}
+#main .sec-4 .cards .card .content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#main .sec-4 .cards .card .content h2 {
+  font-size: 1.8rem;
+}
+#main .sec-4 .cards .card img {
+  width: 100%;
+}
+#main .sec-4 .cards .card button {
+  border: none;
+  background-color: #005CA5;
+  font-size: 1em;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 2px;
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> d5b6180f7d1ce48fd271a86833d692ea51aa1abd
